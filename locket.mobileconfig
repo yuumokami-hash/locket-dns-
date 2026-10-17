@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>0.0.0.0</string>
+					<string>::</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://localhost/dns-query</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>firebaseremoteconfig.googleapis.com</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Giữ cấu hình Locket Gold 30s không cần bật Shadowrocket</string>
+			<key>PayloadDisplayName</key>
+			<string>Locket Keep 30s DNS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.locket.keep30s.dns.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1B2C3D4-E5F6-4A5B-8C9D-0E1F2A3B4C5D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Chặn làm mới Remote Config của Locket để giữ trạng thái quay video 30 giây sau khi đã mồi bằng Shadowrocket.</string>
+	<key>PayloadDisplayName</key>
+	<string>Locket Keep 30s (Không cần VPN)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.locket.keep30s.profile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F1E2D3C4-B5A6-4987-8765-432109876543</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
